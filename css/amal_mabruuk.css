@@ -1,0 +1,147 @@
+/*
+    Author: Ajala AbdulSamii Olalekan
+    Email: kgasta@gmail.com
+    Github: github.com/jalasem
+    Note: I have written some custom css here to help you through your design
+*/
+
+nav>.container {
+    width: 95%;
+}
+
+/*font size adjustments
+    in your html you can use them for icons and text
+    e.g <i class="icon ion-social-facebook x15"></i> to adjut the font-size of the icon to 1.5rem
+*/
+.x1 {
+    font-size: 1rem;
+}
+.x15 {
+    font-size: 1.5rem;
+}
+.x2 {
+    font-size: 2rem;
+}
+.x25 {
+    font-size: 2.5rem;
+}
+.x3 {
+    font-size: 3rem;
+}
+.x35 {
+    font-size: 3.5rem;
+}
+.x4 {
+    font-size: 4rem;
+}
+.x45 {
+    font-size: 4.5rem;
+}
+.x5 {
+    font-size: 5rem;
+}
+.x55 {
+    font-size: 5.5rem;
+}
+
+ul.social i.icon {
+    margin-right: 1rem;
+}
+
+header {
+    background: url(../images/amal_mabruuk_foundation-header.jpg);
+    -webkit-background-size:cover;
+    background-size: cover;
+    height: auto;
+}
+
+header .overlay {
+    height:inherit;
+    background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) 80%);
+}
+
+nav.transparent {
+    -webkit-box-shadow: 0 0 0;
+    -moz-box-shadow:  0 0 0;
+    box-shadow:  0 0 0;
+}
+
+nav a.brand-logo {
+    padding-top: 1rem;
+}
+
+nav a.brand-logo span {
+    display: block;
+    text-align: left;
+    line-height: 20px;
+    margin: 0 !important;
+    font-size: 1.5rem !important;
+}
+
+nav ul.right {
+    padding-top: 1%;
+}
+
+.btn.btn-outline {
+    border: 2px solid white;
+    line-height: 2.3rem;
+}
+
+header #banner {
+    padding: 10% 5% 2rem;
+    height: calc(100vh - 64px);
+}
+
+#banner p {
+    max-width: 30rem;
+    text-align: center;
+    margin:auto;
+}
+
+#banner > div > button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
+    border-right: 3px solid;
+    margin-bottom: 0.5rem;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#banner input[type=number] {
+    padding: 0 1rem;
+    width: 87%;
+    font-size: 1.5rem;
+    color: #558B2F !important;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .brand-logo.left {
+        padding-top: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    nav a.brand-logo.left {
+        text-align: center;
+        right: 0;
+        left: 0;
+        padding-top: 2rem;
+    }
+    nav a.brand-logo.left span {
+        text-align: center;
+    }
+    #banner > div > button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
+        border-right: 0px solid;
+        width: 82%;
+    }
+    #banner > div > button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 + button.btn {
+        margin-left:8.33333333%;
+        width: 82%;
+    }
+    header #banner {
+        padding: 20% 5% 2rem;
+        height: calc(100vh - 64px);
+    }
+}
