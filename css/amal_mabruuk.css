@@ -9,6 +9,10 @@ nav>.container {
     width: 95%;
 }
 
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 /*font size adjustments
     in your html you can use them for icons and text
     e.g <i class="icon ion-social-facebook x15"></i> to adjut the font-size of the icon to 1.5rem
@@ -50,7 +54,6 @@ ul.social i.icon {
 
 header {
     background: url(../images/amal_mabruuk_foundation-header.jpg);
-    -webkit-background-size:cover;
     background-size: cover;
     height: auto;
 }
@@ -61,8 +64,6 @@ header .overlay {
 }
 
 nav.transparent {
-    -webkit-box-shadow: 0 0 0;
-    -moz-box-shadow:  0 0 0;
     box-shadow:  0 0 0;
 }
 
@@ -88,7 +89,7 @@ nav ul.right {
 }
 
 header #banner {
-    padding: 10% 5% 2rem;
+    padding: 7% 5% 2rem;
     height: calc(100vh - 64px);
 }
 
