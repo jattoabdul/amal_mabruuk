@@ -129,7 +129,8 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 main section {
-	padding: 4rem 0rem;
+	padding: 4rem 0rem 4rem !important;
+	margin-bottom: 0 !important;
 }
 
 #for_good .commitment.row {
@@ -149,6 +150,21 @@ button.commit_btn.btn  {
 	background-color: #1bd018;
 }
 
+.our-green-text {
+    color: #1bd018;
+}
+
+.our-green {
+	background: #1bd018;
+	color: #fff;
+}
+
+small.append-text {
+    float: right;
+    margin-right: -10%;
+    margin-top: -2.35rem;
+}
+
 p.flow-text.commitment_result_value {
 	line-height: 70%;
 	color: #1bd018;
@@ -163,7 +179,88 @@ p.flow-text.commitment_result_value {
     font-weight: 600;
 }
 
+#for_issues h4 {
+	max-width: 35rem;
+	margin:auto;
+}
 
+#for_issues .ppp {
+	font-size: 2rem;
+	border: 1px solid;
+	border-radius: 50%;
+	padding: 0rem 0.7rem;
+}
+
+#for_issues .col {
+	padding: 1px 1px;
+}
+
+#for_issues .row {
+	margin-bottom: 0;
+}
+
+#for_issues .row .col .card {
+	margin-bottom: -0.5rem;
+}
+
+#for_issues .row .col .card .card-title {
+	top: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+	padding-top: 30%;
+	background: rgba(0, 0, 0, 0.25);
+	font-size: 2rem;
+	font-weight: 700;
+}
+
+#call2action.row {
+	margin-top: -3.4rem;
+	background: #302220;
+	color: white;
+}
+
+#call2action.row h4 {
+	font-weight: bold;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	line-height: 1.5;
+	font-size: 1.71429rem;
+}
+
+#call2action.row .container {
+	width:90%
+}
+
+#call2action.row .container button.btn-outline {
+	margin-top:3rem;
+}
+
+#call2action.row span.or {
+	display: inline-block;
+	margin: 3.2rem auto 0 10%;
+}
+
+footer.page-footer {
+	background-image: url(../images/footer-bg.png);
+}
+
+footer.page-footer span.with_pako {
+	background: greenyellow;
+	height: 2px;
+	width: 5rem;
+	position: absolute;
+	margin-top: 0.5rem;
+}
+
+footer.page-footer h5 {
+	margin-bottom: 2.5rem;
+}
+
+footer.page-footer .container {
+	min-width: 90%;
+}
 
 @media only screen and (max-width: 992px) {
 	nav .brand-logo.left {
