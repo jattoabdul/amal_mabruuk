@@ -6,143 +6,191 @@
 */
 
 nav>.container {
-    width: 95%;
+	width: 95%;
 }
 
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 
 /*font size adjustments
     in your html you can use them for icons and text
     e.g <i class="icon ion-social-facebook x15"></i> to adjut the font-size of the icon to 1.5rem
 */
+
 .x1 {
-    font-size: 1rem;
+	font-size: 1rem;
 }
+
 .x15 {
-    font-size: 1.5rem;
+	font-size: 1.5rem;
 }
+
 .x2 {
-    font-size: 2rem;
+	font-size: 2rem;
 }
+
 .x25 {
-    font-size: 2.5rem;
+	font-size: 2.5rem;
 }
+
 .x3 {
-    font-size: 3rem;
+	font-size: 3rem;
 }
+
 .x35 {
-    font-size: 3.5rem;
+	font-size: 3.5rem;
 }
+
 .x4 {
-    font-size: 4rem;
+	font-size: 4rem;
 }
+
 .x45 {
-    font-size: 4.5rem;
+	font-size: 4.5rem;
 }
+
 .x5 {
-    font-size: 5rem;
+	font-size: 5rem;
 }
+
 .x55 {
-    font-size: 5.5rem;
+	font-size: 5.5rem;
 }
 
 ul.social i.icon {
-    margin-right: 1rem;
+	margin-right: 1rem;
 }
 
 header {
-    background: url(../images/amal_mabruuk_foundation-header.jpg);
-    background-size: cover;
-    height: auto;
+	background: url(../images/amal_mabruuk_foundation-header.jpg);
+	background-size: cover;
+	height: auto;
 }
 
 header .overlay {
-    height:inherit;
-    background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) 80%);
+	height: inherit;
+	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) 80%);
 }
 
 nav.transparent {
-    box-shadow:  0 0 0;
+	box-shadow: 0 0 0;
 }
 
 nav a.brand-logo {
-    padding-top: 1rem;
+	padding-top: 1rem;
 }
 
 nav a.brand-logo span {
-    display: block;
-    text-align: left;
-    line-height: 20px;
-    margin: 0 !important;
-    font-size: 1.5rem !important;
+	display: block;
+	text-align: left;
+	line-height: 20px;
+	margin: 0 !important;
+	font-size: 1.5rem !important;
 }
 
 nav ul.right {
-    padding-top: 1%;
+	padding-top: 1%;
 }
 
 .btn.btn-outline {
-    border: 2px solid white;
-    line-height: 2.3rem;
+	border: 2px solid white;
+	line-height: 2.3rem;
 }
 
 header #banner {
-    padding: 7% 5% 2rem;
-    height: calc(100vh - 64px);
+	padding: 7% 5% 2rem;
+	height: calc(100vh - 64px);
 }
 
 #banner p {
-    max-width: 30rem;
-    text-align: center;
-    margin:auto;
+	max-width: 30rem;
+	text-align: center;
+	margin: auto;
 }
 
-#banner > div > button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
-    border-right: 3px solid;
-    margin-bottom: 0.5rem;
+#banner>div>button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
+	border-right: 3px solid;
+	margin-bottom: 0.5rem;
 }
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
+	-webkit-appearance: none;
+	margin: 0;
 }
 
 #banner input[type=number] {
-    padding: 0 1rem;
-    width: 87%;
-    font-size: 1.5rem;
-    color: #558B2F !important;
+	padding: 0 1rem;
+	width: 87%;
+	font-size: 1.5rem;
+	color: #558B2F !important;
 }
 
+main section {
+	padding: 4rem 0rem;
+}
+
+#for_good .commitment.row {
+	max-width: 40rem;
+	min-height: 2rem;
+}
+
+#for_good input {
+	font-size: 2rem;
+	max-width: 6rem;
+	text-align: center;
+}
+
+button.commit_btn.btn  {
+	margin-top: 1.25rem;
+	font-weight: 400 !important;
+	background-color: #1bd018;
+}
+
+p.flow-text.commitment_result_value {
+	line-height: 70%;
+	color: #1bd018;
+}
+
+#for_good .people_get.row {
+	max-width: 800px;
+}
+
+#for_good .people_get.row .col p {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+
+
 @media only screen and (max-width: 992px) {
-    nav .brand-logo.left {
-        padding-top: 0.5rem;
-    }
+	nav .brand-logo.left {
+		padding-top: 0.5rem;
+	}
 }
 
 @media only screen and (max-width: 600px) {
-    nav a.brand-logo.left {
-        text-align: center;
-        right: 0;
-        left: 0;
-        padding-top: 2rem;
-    }
-    nav a.brand-logo.left span {
-        text-align: center;
-    }
-    #banner > div > button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
-        border-right: 0px solid;
-        width: 82%;
-    }
-    #banner > div > button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 + button.btn {
-        margin-left:8.33333333%;
-        width: 82%;
-    }
-    header #banner {
-        padding: 20% 5% 2rem;
-        height: calc(100vh - 64px);
-    }
+	nav a.brand-logo.left {
+		text-align: center;
+		right: 0;
+		left: 0;
+		padding-top: 2rem;
+	}
+	nav a.brand-logo.left span {
+		text-align: center;
+	}
+	#banner>div>button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
+		border-right: 0px solid;
+		width: 82%;
+	}
+	#banner>div>button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5+button.btn {
+		margin-left: 8.33333333%;
+		width: 82%;
+	}
+	header #banner {
+		padding: 20% 5% 2rem;
+		height: calc(100vh - 64px);
+	}
 }
