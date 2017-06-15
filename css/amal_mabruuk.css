@@ -10,7 +10,7 @@ nav>.container {
 }
 
 * {
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Poppins','Open Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -71,17 +71,20 @@ header {
 
 header .overlay {
 	height: inherit;
-	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.8) 80%);
+	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.55) 80%);
 }
 
 nav.transparent {
     box-shadow: 0 0 0;
     background: rgba(0, 0, 0, 0.27) !important;
-    height: 100px;
+    height: 90px;
+    transition: all .5s ease-in-out;
 }
 
 nav a.brand-logo {
 	padding-top: 1rem;
+    max-width: 11rem;
+    transition: all .5s ease-in-out;
 }
 
 nav a.brand-logo span {
@@ -94,6 +97,82 @@ nav a.brand-logo span {
 
 nav ul.right {
 	padding-top: 1%;
+	transition: all .5s ease-in-out;
+}
+
+nav.sticky {
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.88) !important;
+    z-index: 1000;
+    height: 65px;
+}
+
+nav.sticky a.brand-logo {
+    max-width: 8rem;
+    padding-top: 0.5rem;
+}
+
+nav.sticky ul.right {
+    padding-top: 0%;
+}
+
+.btn {
+	font-weight: 600;
+}
+
+.btn-round {
+	border-radius: 0.5rem;
+}
+
+small.on-banner-gain1 {
+	z-index: 8;
+    white-space: normal;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    display: inline-block;
+    font-family: Poppins;
+    visibility: inherit;
+    transition: none;
+    text-align: inherit;
+    border-width: 0px;
+    margin: 0px;
+    padding: 5px 20px 0px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
+}
+
+span.main-banner-text {
+	    z-index: 7;
+    white-space: normal;
+    font-size: 100px;
+    line-height: 90px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-family: Poppins;
+    visibility: inherit;
+    transition: none;
+    text-align: inherit;
+    border-width: 0px;
+    margin: 0px;
+    padding: 10px 20px 0px 13px;
+    letter-spacing: 0px;
+    min-height: 0px;
+    min-width: 0px;
+    max-height: none;
+    max-width: none;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transform-origin: 50% 50% 0px;
 }
 
 .btn.btn-outline {
@@ -101,15 +180,30 @@ nav ul.right {
 	line-height: 2.3rem;
 }
 
+.btn-bold {
+	font-weight: 600 !important;
+}
+
 header #banner {
-	padding: 7% 5% 2rem;
-	height: calc(100vh - 64px);
+	/*padding: 7% 5% 2rem;*/
+	height: auto;
+	/*font-family: 'Poppins', sans-serif;*/
+}
+
+#banner h2 {
+    /*font-family: 'Poppins', sans-serif;*/
+    font-size: 4.5rem;
+}
+
+#banner h2 small {
+    font-size: 60%;
 }
 
 #banner p {
-	max-width: 30rem;
-	text-align: center;
-	margin: auto;
+    max-width: 35rem;
+    text-align: center;
+    margin: auto;
+    font-size: 1.2rem;
 }
 
 #banner>div>button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
@@ -275,6 +369,10 @@ p.flow-text.commitment_result_value {
 	background: rgba(0, 0, 0, 0.25);
 	font-size: 2rem;
 	font-weight: 700;
+}
+
+#from_blog.row {
+    margin-top: -3.3rem;
 }
 
 #call2action.row {
