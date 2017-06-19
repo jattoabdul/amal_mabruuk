@@ -102,22 +102,33 @@ header {
 #ourWork header {
 	background: url('../images/parallax-5.jpg');
 	background-size: cover;
+	background-attachment: fixed;
+}
+
+#standWithUs header {
+	background: url('../images/volounteer.jpg');
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 #ourWork #intro.row.container {
 	min-width: 95%;
 }
 
-#ourWork .achievements h4 {
+.otherPages .achievements h4 {
     margin-top: -1rem;
 }
 
-#ourWork .card-panel {
+.otherPages .card-panel {
     padding: 0px 24px;
 }
 
-#ourWork .achievements h4 small {
+.otherPages .achievements h4 small {
     font-size: 45%;
+}
+
+#fillForm .container {
+	min-width: 90%;
 }
 
 #faces {
