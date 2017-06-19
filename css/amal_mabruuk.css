@@ -10,7 +10,7 @@ nav>.container {
 }
 
 * {
-	font-family: 'Poppins','Open Sans','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Poppins', 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -69,22 +69,103 @@ header {
 	height: auto;
 }
 
+#aboutUs header {
+	background: url('../images/amal_mabruuk_foundation-header.jpg');
+	background-size: cover;
+	height: auto;
+}
+
+.otherPages header .overlay {
+    background: rgba(0, 0, 0, 0.36);
+}
+
+#aboutUs .parallax-container {
+	height: 80vh;
+}
+
+#aboutUs .parallax {
+    bottom: -25rem;
+}
+
+#aboutUs #rightThing .impacts p.record-detail {
+	font-size: 2.5rem;
+}
+
+#aboutUs .impacts span.topic {
+	font-size: initial;
+}
+
+#aboutUs #becomeVolounteer .li-number {
+	font-family: 'Playball', cursive;
+}
+
+#ourWork header {
+	background: url('../images/parallax-5.jpg');
+	background-size: cover;
+}
+
+#ourWork #intro.row.container {
+	min-width: 95%;
+}
+
+#ourWork .achievements h4 {
+    margin-top: -1rem;
+}
+
+#ourWork .card-panel {
+    padding: 0px 24px;
+}
+
+#ourWork .achievements h4 small {
+    font-size: 45%;
+}
+
+#faces {
+	padding-top: 0rem !important;
+	/*padding-bottom: 0 !important;*/
+}
+
+#faces .funding-details {
+	font-size: larger;
+}
+
+#faces .card-image span.card-title {
+	font-weight: 300;
+	font-size: 1rem;
+}
+
+#faces .card .card-image img {
+	max-height: 27rem;
+}
+
+/*#rightThing.row {
+	background: url('http://www.nicdarkthemes.com/themes/charity/wp/demo/charity-foundation/wp-content/uploads/sites/3/2017/04/parallax-8.jpg');
+}*/
+
+#aboutUs header .overlay {
+	height: inherit;
+}
+
+.otherPages header #page-banner {
+	padding: 8% 5% 6%;
+}
+
 header .overlay {
 	height: inherit;
 	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.55) 80%);
 }
 
 nav.transparent {
-    box-shadow: 0 0 0;
-    background: rgba(0, 0, 0, 0.27) !important;
-    height: 90px;
-    transition: all .5s ease-in-out;
+	box-shadow: 0 0 0;
+	background: rgba(0, 0, 0, 0.27) !important;
+	height: 90px;
+	transition: all .5s ease-in-out;
 }
 
 nav a.brand-logo {
 	padding-top: 1rem;
-    max-width: 11rem;
-    transition: all .5s ease-in-out;
+	max-width: 11rem;
+	transition: all .5s ease-in-out;
 }
 
 nav a.brand-logo span {
@@ -101,20 +182,20 @@ nav ul.right {
 }
 
 nav.sticky {
-    position: fixed;
-    top: 0;
-    background: rgba(0, 0, 0, 0.88) !important;
-    z-index: 1000;
-    height: 65px;
+	position: fixed;
+	top: 0;
+	background: rgba(0, 0, 0, 0.88) !important;
+	z-index: 1000;
+	height: 65px;
 }
 
 nav.sticky a.brand-logo {
-    max-width: 8rem;
-    padding-top: 0.5rem;
+	max-width: 8rem;
+	padding-top: 0.5rem;
 }
 
 nav.sticky ul.right {
-    padding-top: 0%;
+	padding-top: 0%;
 }
 
 .btn {
@@ -125,54 +206,58 @@ nav.sticky ul.right {
 	border-radius: 0.5rem;
 }
 
+.btn-rounded {
+	border-radius: 2rem;
+}
+
 small.on-banner-gain1 {
 	z-index: 8;
-    white-space: normal;
-    font-size: 20px;
-    line-height: 20px;
-    font-weight: 300;
-    color: rgb(255, 255, 255);
-    letter-spacing: 3px;
-    display: inline-block;
-    font-family: Poppins;
-    visibility: inherit;
-    transition: none;
-    text-align: inherit;
-    border-width: 0px;
-    margin: 0px;
-    padding: 5px 20px 0px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform-origin: 50% 50% 0px;
+	white-space: normal;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 300;
+	color: rgb(255, 255, 255);
+	letter-spacing: 3px;
+	display: inline-block;
+	font-family: Poppins;
+	visibility: inherit;
+	transition: none;
+	text-align: inherit;
+	border-width: 0px;
+	margin: 0px;
+	padding: 5px 20px 0px;
+	min-height: 0px;
+	min-width: 0px;
+	max-height: none;
+	max-width: none;
+	opacity: 1;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+	transform-origin: 50% 50% 0px;
 }
 
 span.main-banner-text {
-	    z-index: 7;
-    white-space: normal;
-    font-size: 100px;
-    line-height: 90px;
-    font-weight: 500;
-    color: rgb(255, 255, 255);
-    display: inline-block;
-    font-family: Poppins;
-    visibility: inherit;
-    transition: none;
-    text-align: inherit;
-    border-width: 0px;
-    margin: 0px;
-    padding: 10px 20px 0px 13px;
-    letter-spacing: 0px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform-origin: 50% 50% 0px;
+	z-index: 7;
+	white-space: normal;
+	font-size: 100px;
+	line-height: 90px;
+	font-weight: 500;
+	color: rgb(255, 255, 255);
+	display: inline-block;
+	font-family: Poppins;
+	visibility: inherit;
+	transition: none;
+	text-align: inherit;
+	border-width: 0px;
+	margin: 0px;
+	padding: 10px 20px 0px 13px;
+	letter-spacing: 0px;
+	min-height: 0px;
+	min-width: 0px;
+	max-height: none;
+	max-width: none;
+	opacity: 1;
+	transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+	transform-origin: 50% 50% 0px;
 }
 
 .btn.btn-outline {
@@ -191,19 +276,19 @@ header #banner {
 }
 
 #banner h2 {
-    /*font-family: 'Poppins', sans-serif;*/
-    font-size: 4.5rem;
+	/*font-family: 'Poppins', sans-serif;*/
+	font-size: 4.5rem;
 }
 
 #banner h2 small {
-    font-size: 60%;
+	font-size: 60%;
 }
 
 #banner p {
-    max-width: 35rem;
-    text-align: center;
-    margin: auto;
-    font-size: 1.2rem;
+	max-width: 35rem;
+	text-align: center;
+	margin: auto;
+	font-size: 1.2rem;
 }
 
 #banner>div>button.btn.light-green.black-text.col.s10.offset-s1.m2.offset-m4.l1.offset-l5 {
@@ -240,14 +325,14 @@ main section {
 	text-align: center;
 }
 
-button.commit_btn.btn  {
+button.commit_btn.btn {
 	margin-top: 1.25rem;
 	font-weight: 400 !important;
 	background-color: #1bd018;
 }
 
 .our-green-text {
-    color: #1bd018;
+	color: #1bd018;
 }
 
 .our-green {
@@ -256,9 +341,9 @@ button.commit_btn.btn  {
 }
 
 small.append-text {
-    float: right;
-    margin-right: -10%;
-    margin-top: -2.35rem;
+	float: right;
+	margin-right: -10%;
+	margin-top: -2.35rem;
 }
 
 p.flow-text.commitment_result_value {
@@ -271,39 +356,40 @@ p.flow-text.commitment_result_value {
 }
 
 #for_good .people_get.row .col p {
-    font-size: 1.1rem;
-    font-weight: 600;
+	font-size: 1.1rem;
+	font-weight: 600;
 }
 
 #our_impact .record-detail .figure {
-    font-weight: 500;
-    font-size: 3rem;
+	font-weight: 500;
+	font-size: 3rem;
 }
 
 #our_impact .record-detail .topic {
-    font-weight: 400;
-    font-size: 1.5rem;
+	font-weight: 400;
+	font-size: 1.5rem;
 }
 
 .card.horizontal {
-    box-shadow: 0 0 0;
+	box-shadow: 0 0 0;
 }
 
 .card.horizontal .card-title {
-    /*margin-top: -0.5rem;*/
+	/*margin-top: -0.5rem;*/
 }
 
 .card.horizontal .card-content {
-    padding: 0 24px 0;
+	padding: 0 24px 0;
 }
 
 .card.horizontal .card-action {
-    border-top: 0px solid rgba(160,160,160,0.2);
+	border-top: 0px solid rgba(160, 160, 160, 0.2);
 }
 
 .each-post.col.s12.m6 {
-    margin-bottom: 2.5rem !important;
+	margin-bottom: 2.5rem !important;
 }
+
 
 /*.carousel {
     width: 100%;
@@ -328,17 +414,9 @@ p.flow-text.commitment_result_value {
     transform: translateX(250px) translateY(130px) translateX(0px) translateX(0px) translateZ(0px) !important;
 }*/
 
-
-
-
-
-
-
-
-
 #for_issues h4 {
 	max-width: 35rem;
-	margin:auto;
+	margin: auto;
 }
 
 #for_issues .ppp {
@@ -372,7 +450,7 @@ p.flow-text.commitment_result_value {
 }
 
 #from_blog.row {
-    margin-top: -3.3rem;
+	margin-top: -3.3rem;
 }
 
 #call2action.row {
@@ -391,11 +469,11 @@ p.flow-text.commitment_result_value {
 }
 
 #call2action.row .container {
-	width:90%
+	width: 90%
 }
 
 #call2action.row .container button.btn-outline {
-	margin-top:3rem;
+	margin-top: 3rem;
 }
 
 #call2action.row span.or {
@@ -423,10 +501,10 @@ footer.page-footer .container {
 	min-width: 90%;
 }
 
-@media only screen and (min-width: 993px){
-     .container {
-        width: 85%;
-    }
+@media only screen and (min-width: 993px) {
+	.container {
+		width: 85%;
+	}
 }
 
 @media only screen and (max-width: 992px) {
